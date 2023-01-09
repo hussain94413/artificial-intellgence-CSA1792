@@ -1,0 +1,9 @@
+my_str = input("Enter a string: ")    
+words = my_str.split()    
+words.sort()    
+for word in words:  
+   print(word)  
+import calendar
+y = int(input("Input the year : "))
+m = int(input("Input the month : "))
+print(calendar.month(y, m))
